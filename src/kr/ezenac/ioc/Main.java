@@ -7,7 +7,7 @@ public class Main {
         String url = "www.google.com/books/it?page=100&springframework";
 
         // Base64 encoding
-        IEncoder encoder = new Encoder();
+        IEncoder encoder = new Base64Encoder();
         String result = encoder.encode(url);
         System.out.println(result);
         System.out.println("-------------------------");
