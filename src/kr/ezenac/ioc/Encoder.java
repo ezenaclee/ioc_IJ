@@ -1,3 +1,5 @@
+package kr.ezenac.ioc;
+
 import java.util.Base64;
 
 public class Encoder {
